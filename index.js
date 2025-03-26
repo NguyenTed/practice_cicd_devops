@@ -19,7 +19,7 @@ app.get("/contact", (req, res) => {
 });
 
 app.get("/hello", (req, res) => {
-  res.send("Quan Nguyen");
+  res.send("Thuan Nguyen");
 });
 
 app.listen(port, () => {
